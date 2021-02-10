@@ -1,3 +1,13 @@
+:root {
+  --backgroundColor: rgb(219, 219, 219);
+
+  --headerMinHeight: 10vh;
+  --headerBackgroundColor: purple;
+  --headerTextColor: white;
+}
+
+
+
 html {
   font-size: 1rem;
 }
@@ -19,4 +29,33 @@ h1,h2,h3,h4,h5,h6 {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--backgroundColor);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: var(--headerBackgroundColor);
+  color: var(--headerTextColor);
+}
+
+.header .nav {
+  min-height: var(--headerMinHeight);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .nav .nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .nav .nav-links > a:not(:last-child) {
+  margin-right: 1.6rem;
 }
