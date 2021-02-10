@@ -39,8 +39,11 @@ body {
 }
 
 .header {
+  position: sticky;
+  top: 0;
   background-color: var(--headerBackgroundColor);
   color: var(--headerTextColor);
+  box-shadow: 0 1px 6px rgba(75, 22, 124, .6);
 }
 
 .header .nav {
