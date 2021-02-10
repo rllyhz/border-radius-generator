@@ -138,10 +138,6 @@ body {
   border-radius: 0% 100% 0% 100% / 100% 100% 0% 30%;
 }
 
-.main .container .projects-container .border-radius-tool .controllers {
-  /*  */
-}
-
 .main .container .projects-container .border-radius-tool .controllers .form-controller {
   width: 100%;
   height: unset;
@@ -154,7 +150,6 @@ body {
   background: transparent; /* Otherwise white in Chrome */
 }
 
-.main .container .projects-container .border-radius-tool .controllers .form-controller input {}
 
 /* Special styling for WebKit/Blink */
 .main .container .projects-container .border-radius-tool .controllers .form-controller input[type=range]::-webkit-slider-thumb {
