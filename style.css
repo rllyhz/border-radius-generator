@@ -1,6 +1,6 @@
 :root {
-  --backgroundColor: rgb(219, 219, 219);
-  --textColor: purple;
+  --backgroundColor: #06090F;
+  --textColor: white;
 
   --headerMinHeight: 10vh;
   --headerBackgroundColor: purple;
@@ -293,5 +293,7 @@ body {
   background-color: var(--primaryColor);
   color: white;
   text-align: center;
+  font-family: "Fira Code", sans-serif;
+  font-style: italic;
   border-radius: 4px;
 }

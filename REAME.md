@@ -6,4 +6,6 @@ This very simple web was created for only having some fun while coronavirus pand
 
 ### Preview
 
+![Preview](images/preview-2.png)
+
 ![Preview](images/preview.png)
